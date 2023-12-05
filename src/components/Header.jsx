@@ -23,7 +23,7 @@ const Header = () => {
         </Link>
         <ul className={`nav-links ${isMobileMenuOpen ? 'show' : ''}`}>
           <li><Link to='/'>Home</Link></li>
-          {/* <li><Link to='/about'>About</Link></li> */}
+          <li><Link to='/about'>About</Link></li>
           {/* <li><Link to='/services'>Services</Link></li> */}
           {/* <li><Link to='/contact'>Contact</Link></li> */}
           {/* <li><Link to='/natPS2023'>Problem Statements</Link></li> */}
